@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>Simple Canvas Drawing using AJAX and Open Data</title>
+<script type="text/javascript" src="js/control.js"></script>
+</head>
+<body onLoad="getRoutes();">
+	<div id="content">
+		<canvas id="path" style="background-color: #FFF; border: 1px solid; width: 400px; height: 400px;"></canvas>
+		<div id="percentage"></div>
+		<form id="info">
+			<select id="routes" onChange="getConfig(this.value)"></select><br>
+			<select id="directions" onChange="getStops(this.value); drawCanvas()"></select><br>
+			<select id="stops"></select>
+		</form>
+	</div>
+</body>
+</html>
