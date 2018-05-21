@@ -1,4 +1,3 @@
-OpenDataCanvasAjax
-==================
+# OpenDataCanvasAjax
 
-Simple application of HTML 5 canvas drawing using open data from TTC System as parameters. (Assynchronically using AJAX).
+HTML 5 Canvas Drawing and Open API Consumption example made for studying purposes back in 2014. Basically, it consumes TTC system data to draw selected paths in a html 5 canvas with each stop highlighted.
